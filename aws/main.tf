@@ -10,7 +10,7 @@ resource "random_string" "random" {
   min_lower = "16"
 }
 
-resource "aws_s3_bucket" "yaron" {
+resource "aws_s3_bucket" "arel" {
   bucket = "yaron-test-${random_string.random.result}"
   acl    = "public-read"
   force_destroy = true
