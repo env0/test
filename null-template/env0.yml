@@ -8,4 +8,4 @@ deploy:
             - az --version
 destroy:
     onCompletion:
-      - echo "destroy-onCompletion"
+      - echo "destroy-onCompletionn"
