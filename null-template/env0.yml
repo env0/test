@@ -4,6 +4,7 @@ deploy:
         setupVariables:
           after:
             - aws --version
+            - aws --version
             - gcloud --version
             - az --version
 destroy:
